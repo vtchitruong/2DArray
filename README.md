@@ -6,40 +6,40 @@ Các bài tập sau đây dùng để *luyện ngón* đối với mảng-2-chi�
 Chương trình này giới thiệu một vài cách khai báo, khởi tạo và xóa mảng-2-chiều.  
 
 ## Chuyển đổi qua lại giữa mảng-2-chiều và mảng-1-chiều
-**Yêu cầu**
+**Yêu cầu**  
 Viết một hàm chuyển đổi từ mảng-2-chiều thành mảng-1-chiều, và một hàm thực hiện chuyển đổi ngược lại.  
 
-**Input 1**
+**Input 1**  
 Mảng-2-chiều:  
 3 6 7 5 3 5  
 6 2 9 1 2 7  
 0 9 3 6 0 6  
 2 6 1 8 7 9  
 
-**Output 1**
+**Output 1**  
 Chuyển đổi thành mảng-1-chiều:  
 3 6 7 5 3 5 6 2 9 1 2 7 0 9 3 6 0 6 2 6 1 8 7 9  
 
-**Input 2**
+**Input 2**  
 Mảng-1-chiều:  
 2 0 2 3 7 5 9 2 2 8 9 7 3 6 1 2 9 3 1 9 4  
 
-**Output 2**
+**Output 2**  
 Chuyển đổi thành mảng-2-chiều:  
 2 0 2 3 7 5 9  
 2 2 8 9 7 3 6  
 1 2 9 3 1 9 4  
 
 ## Khởi tạo ma trận vuông
-**Yêu cầu**
+**Yêu cầu**  
 Khởi tạo ma trận vuông gồm các phần tử đều là 0.  
 Gán các phần tử nằm trên đường chéo chính là 1.  
 Gán các phần tử nằm trong tam giác dưới đường chéo chính là 2.  
 
-**Input**
+**Input**  
 n = 8 là kích thước của ma trận vuông.  
 
-**Output**
+**Output**  
 1 0 0 0 0 0 0 0  
 2 1 0 0 0 0 0 0  
 2 2 1 0 0 0 0 0  
@@ -50,17 +50,17 @@ n = 8 là kích thước của ma trận vuông.
 2 2 2 2 2 2 2 1  
 
 ## Ma trận chuyển vị
-**Yêu cầu**
+**Yêu cầu**  
 Viết hàm tạo ma trận chuyển vị của ma trận đã cho. Nghĩa là chuyển hàng thành cột và cột thành hàng.  
 
-**Input**
+**Input**  
 Ma trận A:
 3 6 7 5 3 5 6 2  
 9 1 2 7 0 9 3 6  
 0 6 2 6 1 8 7 9  
 2 0 2 3 7 5 9 2  
 
-**Output**
+**Output**  
 Ma trận B là ma trận chuyển vị của A:  
 3 9 0 2  
 6 1 6 0  
@@ -72,13 +72,13 @@ Ma trận B là ma trận chuyển vị của A:
 2 6 9 2  
 
 ## Bàn cờ vua
-**Yêu cầu**
+**Yêu cầu**  
 In ra màn hình ma trận mô phỏng bàn cờ vua, nghĩa là các ô có giá trị 0 và 1 xen kẽ nhau.  
 
-**Input**
+**Input**  
 n = 8 là kích thước của bàn cờ.  
 
-**Output**
+**Output**  
 0  1  0  1  0  1  0  1  
 1  0  1  0  1  0  1  0  
 0  1  0  1  0  1  0  1  
@@ -90,13 +90,13 @@ n = 8 là kích thước của bàn cờ.
 
 
 ## Tam giác Pascal
-**Yêu cầu**
+**Yêu cầu**  
 Sử dụng mảng-2-chiều để hiển thị các hệ số của nhị thức trong Pascal.
 
-**Input**
+**Input**  
 n = 10 là số hàng của tam giác Pascal.  
 
-**Output**
+**Output**  
    1  
    1   1  
    1   2   1  
@@ -110,13 +110,13 @@ n = 10 là số hàng của tam giác Pascal.
 
 
 ## Ma trận zigzag
-**Yêu cầu**
+**Yêu cầu**  
 In ra màn hình ma trận zigzag, cách gọi khác là hình con rắn.  
 
-**Input**
+**Input**  
 n = 8 là kích thước của ma trận.    
 
-**Output**
+**Output**  
     1    2     3    4    5    6     7    8
   16  15  14  13  12  11  10    9
   17  18  19  20  21  22  23  24
@@ -127,13 +127,13 @@ n = 8 là kích thước của ma trận.
   64  63  62  61  60  59  58  57
 
 ## Ma trận xoắn ốc
-**Yêu cầu**
+**Yêu cầu**  
 In ra màn hình ma trận xoắn ốc từ ngoài vào trong.  
 
-**Input**
+**Input**  
 n = 8 là kích thước của ma trận.    
 
-**Output**
+**Output**  
     1    2     3    4    5    6     7    8  
   28  29  30  31  32  33  34    9  
   27  48  49  50  51  52  35  10  
