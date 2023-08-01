@@ -32,7 +32,7 @@ void FillSpiralMatrix(int size)
             r++;
         } while (c > r);
 
-        // Ứng với cạnh dưới (hàng cuối), gán value từ cột cuồi về cột áp đầu
+        // Ứng với cạnh dưới (hàng cuối), gán value từ cột cuối về cột áp đầu
         do
         {
             a[r][c] = ++value;;
@@ -67,7 +67,7 @@ void Show(int size, string message)
 
 int main()
 {
-    // Ma trận có có kích 8x8
+    // Ma trận có kích 8x8
     int n = 8;
 
     FillSpiralMatrix(n);
