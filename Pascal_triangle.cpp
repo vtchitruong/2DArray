@@ -23,7 +23,7 @@ void FillPascalTriangle(int size)
             a[r][c] = a[r - 1][c] + a[r - 1][c - 1];
         }
 
-        // Gán phần tử đầu tiên của hàng là 1
+        // Gán phần tử cuối cùng của hàng là 1
         a[r][r] = 1;
     }
 }
@@ -44,7 +44,7 @@ void Show(int size, string message)
 
 int main()
 {
-    // Tam giác có 8 hàng
+    // Tam giác có 10 hàng
     int n = 10;
 
     FillPascalTriangle(n);
